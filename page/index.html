@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DEMO</title>
+    <style type="text/css">
+        .menu {
+            list-style-type: none;
+        }
+
+        .menu li {
+            float: left;
+            margin-right: 15px;
+        }
+
+        .menu li a:visited{
+            color: #4078c0;
+        }
+    </style>
+    <script type="text/javascript" src="/lib/mod.js"></script>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#A">PageA</a></li>
+        <li><a href="#B">PageB</a></li>
+        <li><a href="#C">PageC</a></li>
+    </ul>
+    <div id="main"></div>
+    <script type="text/javascript">
+        require('main').initRoute();
+    </script>
+</body>
+</html>
